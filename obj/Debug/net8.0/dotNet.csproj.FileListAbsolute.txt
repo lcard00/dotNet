@@ -1,0 +1,14 @@
+/home/lcard00/Projects/dotNet/bin/Debug/net8.0/dotNet
+/home/lcard00/Projects/dotNet/bin/Debug/net8.0/dotNet.deps.json
+/home/lcard00/Projects/dotNet/bin/Debug/net8.0/dotNet.runtimeconfig.json
+/home/lcard00/Projects/dotNet/bin/Debug/net8.0/dotNet.dll
+/home/lcard00/Projects/dotNet/bin/Debug/net8.0/dotNet.pdb
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.GeneratedMSBuildEditorConfig.editorconfig
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.AssemblyInfoInputs.cache
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.AssemblyInfo.cs
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.csproj.CoreCompileInputs.cache
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.dll
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/refint/dotNet.dll
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.pdb
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/dotNet.genruntimeconfig.cache
+/home/lcard00/Projects/dotNet/obj/Debug/net8.0/ref/dotNet.dll
