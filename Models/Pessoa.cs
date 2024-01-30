@@ -11,12 +11,12 @@ namespace dotNet.Models
         private string _nome;
         private string _sobrenome;
         private int _idade;
+
         public string Nome
         {
             get => _nome;
             set => _nome = value;
         }
-
         public string Sobrenome
         {
             get => _sobrenome;
@@ -27,6 +27,7 @@ namespace dotNet.Models
         {
             get => ($"{ValidaNome(Nome.ToUpper())} {Sobrenome.ToUpper()}");
         }
+
         public int Idade
         {
             get => _idade;
