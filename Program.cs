@@ -8,3 +8,10 @@ Pessoa p1 = new()
 };
 
 p1.Aprersentar();
+
+Curso c1 = new()
+{
+    Nome = "dotNet"
+};
+
+c1.Aprersentar();

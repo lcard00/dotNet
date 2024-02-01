@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace dotNet.Models
 {
-    public class Pessoa
+    public class Pessoa : Utils
     {
         private string _nome;
         private string _sobrenome;
@@ -26,7 +20,7 @@ namespace dotNet.Models
 
         public string NomeCompleto
         {
-            get => ($"{ValidaNome(Nome.ToUpper())} {Sobrenome.ToUpper()}");
+            get => ($"{ValidaTexto(Nome.ToUpper())} {Sobrenome.ToUpper()}");
         }
 
         public int Idade
@@ -42,19 +36,10 @@ namespace dotNet.Models
             }
         }
 
-        public void Aprersentar()
+        public override void Aprersentar()
         {
             Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
 
-        public static string ValidaNome(string name)
-        {
-            if (name == "")
-            {
-                throw new ArgumentException("O nome não pode ser vazio.");
-            }
-
-            return name;
-        }
     }
 }
