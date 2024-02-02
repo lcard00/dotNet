@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AvRatAG32iM3phPgdaTxxmA+OLGRfXOi21QWkcie6b4wMZuV29HkpILegS671CTSCJPg8oH35XOecv2vANSBYQ==",
+  "dgSpecHash": "v+zRx4Cv1CoSP1vqb9w7s7LzJvKztKh2zZGYFkoqI3loYsF97pNOBLtdbAN5VRUTvKvCAfLTS237onM/CEEBUw==",
   "success": true,
   "projectFilePath": "/home/lcard00/Projects/dotNet/dotNet.csproj",
   "expectedPackageFiles": [
-    "/home/lcard00/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+    "/home/lcard00/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

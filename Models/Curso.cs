@@ -1,3 +1,5 @@
+using System.Xml.XPath;
+
 namespace dotNet.Models
 {
     public class Curso : Utils
@@ -15,15 +17,31 @@ namespace dotNet.Models
             Alunos.Add(aluno);
         }
 
-        public void RemoverAluno(Pessoa aluno)
+        public bool RemoverAluno(Pessoa aluno)
         {
-            Alunos.Remove(aluno);
+            return Alunos.Remove(aluno);
+        }
+
+        public int ObertQuantidadeDeAlunosMatriculados()
+        {
+            return Alunos.Count;
+        }
+
+        public void ListarAlunos()
+        {
+            Console.WriteLine($"Alunos do curso : {Nome}");
+            foreach (Pessoa aluno in Alunos)
+            {
+                Console.WriteLine(aluno.NomeCompleto);
+            }
         }
 
         public override void Aprersentar()
         {
             Console.WriteLine($"Curso: {Nome}");
         }
+
+
 
     }
 }

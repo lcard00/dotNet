@@ -4,14 +4,18 @@ Pessoa p1 = new()
 {
     Nome = "Leonardo",
     Sobrenome = "Cardoso",
-    Idade = 34
 };
 
-p1.Aprersentar();
+Pessoa p2 = new("Luna", "Golden");
 
-Curso c1 = new()
+Curso cursoDotNet = new()
 {
-    Nome = "dotNet"
+    Nome = "dotNet",
+    Alunos = new List<Pessoa>()
 };
 
-c1.Aprersentar();
+
+cursoDotNet.AdicionarAluno(p1);
+cursoDotNet.AdicionarAluno(p2);
+
+cursoDotNet.ListarAlunos();

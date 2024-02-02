@@ -2,6 +2,13 @@ namespace dotNet.Models
 {
     public class Pessoa : Utils
     {
+        public Pessoa(){}
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
+
         private string _nome;
         private string _sobrenome;
         private int _idade;
